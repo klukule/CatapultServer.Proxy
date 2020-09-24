@@ -1,0 +1,3 @@
+[submodule "FallGuys.Protocol"]
+	path = FallGuys.Protocol
+	url = https://github.com/klukule/FallGuys.Protocol.git

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatapultServer.Proxy", "CatapultServer.Proxy\CatapultServer.Proxy.csproj", "{3628F9B6-38CA-44CE-A0C1-F3318AD050CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FallGuysProtocol", "FallGuys.Protocol\FallGuys.Protocol\FallGuysProtocol.csproj", "{87824001-8ECE-4663-BF7F-9AACF864B684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protocol", "Protocol", "{62B06AF3-A790-4963-9C22-8A1525E9CACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3628F9B6-38CA-44CE-A0C1-F3318AD050CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3628F9B6-38CA-44CE-A0C1-F3318AD050CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3628F9B6-38CA-44CE-A0C1-F3318AD050CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3628F9B6-38CA-44CE-A0C1-F3318AD050CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87824001-8ECE-4663-BF7F-9AACF864B684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87824001-8ECE-4663-BF7F-9AACF864B684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87824001-8ECE-4663-BF7F-9AACF864B684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87824001-8ECE-4663-BF7F-9AACF864B684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87824001-8ECE-4663-BF7F-9AACF864B684} = {62B06AF3-A790-4963-9C22-8A1525E9CACC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B76391BC-1A5E-43C1-B0FF-CCFBBDB19225}
+	EndGlobalSection
+EndGlobal
